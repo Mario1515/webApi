@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.Sqlite;
 using System.IO;
+using Serilog;
+
 
 [ApiController]
 [Route("[controller]")]
@@ -21,6 +23,7 @@ public IActionResult UploadSwiftMessage(IFormFile file)
         var swiftMessage = ParseSwiftMessage(message);
          // Print the parsed header to the console
 
+         Log.Information("Swift Message: " + swiftMessage);
         // Save to SQLite
         // SaveToDatabase(swiftMessage);
 
