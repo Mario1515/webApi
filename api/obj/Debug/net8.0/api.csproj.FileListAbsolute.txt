@@ -69,3 +69,7 @@ C:\Users\HP\OneDrive\Desktop\webApi\api\bin\Debug\net8.0\Serilog.Sinks.Console.d
 C:\Users\HP\OneDrive\Desktop\webApi\api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\HP\OneDrive\Desktop\webApi\api\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\HP\OneDrive\Desktop\webApi\api\obj\Debug\net8.0\api.sourcelink.json
+C:\Users\HP\OneDrive\Desktop\webApi\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\OneDrive\Desktop\webApi\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\OneDrive\Desktop\webApi\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\OneDrive\Desktop\webApi\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
