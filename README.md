@@ -10,27 +10,27 @@ I have succesfully created a webApi which receives a POST request with a MT799 m
 
 ## Installation Steps 
 
-  ### Open a terminal or command prompt and run: 
+  #### Open a terminal or command prompt and run: 
   git clone https://github.com/Mario1515/webApi
-  ### Navigate to Project Directory
+  #### Navigate to Project Directory
   cd webApi/api
-  ### Restore Project Dependencies
+  #### Restore Project Dependencies
   dotnet restore
-  ### Build the Project
+  #### Build the Project
   dotnet build
-  ### Run the Application
+  #### Run the Application
   dotnet run
-  ### By default, the application will start and be accessible at http://localhost:5000
+  #### By default, the application will start and be accessible at http://localhost:5000
 
 ## Testing the Api 
 
-  ### Access Swagger 
+  #### Access Swagger 
   open a web browser and navigate to http://localhost:5000/swagger
-  ### Send a POST Request to Upload a SWIFT Message: 
+  #### Send a POST Request to Upload a SWIFT Message: 
   Click on the "Choose File" button to select a file from your system and click on Execute
-  ### Check the Logs,
+  #### Check the Logs,
   I used a Serilog logger and everything is being logged into a file located in the project
-  ### Check the DB,
+  #### Check the DB,
   You could directly check the DB and see the entry within the SQL folder. 
-  ### Check the server response
+  #### Check the server response
   The response should be a status 200 with a message. 
